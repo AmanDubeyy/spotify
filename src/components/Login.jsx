@@ -4,7 +4,7 @@ import styled from 'styled-components'
 export default function Login() {
     const handleclick = () =>{
         const clientId = 'f3a6269629f347adb579a1109974dbe6';
-        const redirectUrl = "https://spotify-clone0.herokuapp.com/";
+        const redirectUrl = "http://localhost:3000/";
         const apiUrl = "https://accounts.spotify.com/authorize";
         const scope = [
             "user-read-private",
